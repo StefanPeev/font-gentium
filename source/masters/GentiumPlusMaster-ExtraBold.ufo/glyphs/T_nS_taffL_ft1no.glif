@@ -2,7 +2,4 @@
 <glyph name="TnStaffLft1no" format="2">
   <advance width="165"/>
   <anchor x="185" y="55" name="TL"/>
-  <outline>
-    <component base="TnLtrSpcFlatLeft"/>
-  </outline>
 </glyph>

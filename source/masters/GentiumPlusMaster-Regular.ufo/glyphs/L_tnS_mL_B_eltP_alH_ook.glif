@@ -7,7 +7,6 @@
   <outline>
     <component base="LtnSmLBelt"/>
     <contour>
-      <point x="190" y="-259"/>
       <point x="167" y="-287" type="curve"/>
       <point x="155" y="-400"/>
       <point x="246" y="-500"/>
@@ -30,6 +29,7 @@
       <point x="309" y="-200"/>
       <point x="304" y="-194" type="curve"/>
       <point x="262" y="-210"/>
+      <point x="190" y="-259"/>
     </contour>
   </outline>
 </glyph>

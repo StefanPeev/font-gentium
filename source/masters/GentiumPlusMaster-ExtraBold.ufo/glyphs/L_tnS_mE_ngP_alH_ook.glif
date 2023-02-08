@@ -7,7 +7,6 @@
   <outline>
     <component base="LtnSmEng"/>
     <contour>
-      <point x="1052" y="-252"/>
       <point x="1019" y="-290" type="curve"/>
       <point x="1007" y="-408"/>
       <point x="1121" y="-500"/>
@@ -28,6 +27,7 @@
       <point x="1247" y="-170"/>
       <point x="1237" y="-159" type="curve"/>
       <point x="1183" y="-176"/>
+      <point x="1052" y="-252"/>
     </contour>
     <contour>
       <point x="1492" y="120" type="curve"/>

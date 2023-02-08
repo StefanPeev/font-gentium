@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmVe.Bulg" format="2">
-  <advance width="974"/>
-  <anchor x="473" y="-100" name="L"/>
-  <anchor x="473" y="1050" name="U"/>
+  <advance width="987"/>
   <outline>
-    <component base="CySmVe"/>
+    <contour>
+      <point x="186" y="715" type="line"/>
+      <point x="186" y="765" type="line"/>
+      <point x="454" y="888"/>
+      <point x="679" y="1108"/>
+      <point x="679" y="1270" type="curve" smooth="yes"/>
+      <point x="679" y="1379"/>
+      <point x="637" y="1464"/>
+      <point x="512" y="1464" type="curve" smooth="yes"/>
+      <point x="381" y="1464"/>
+      <point x="240" y="1308"/>
+      <point x="240" y="1029" type="curve" smooth="yes"/>
+      <point x="240" y="176" type="line"/>
+      <point x="301" y="127"/>
+      <point x="420" y="80"/>
+      <point x="504" y="80" type="curve" smooth="yes"/>
+      <point x="684" y="80"/>
+      <point x="742" y="232"/>
+      <point x="742" y="431" type="curve" smooth="yes"/>
+      <point x="742" y="672"/>
+      <point x="663" y="814"/>
+      <point x="512" y="814" type="curve" smooth="yes"/>
+      <point x="419" y="814"/>
+      <point x="297" y="707"/>
+      <point x="186" y="564" type="curve"/>
+      <point x="186" y="735" type="line"/>
+      <point x="593" y="960" type="line"/>
+      <point x="623" y="960" type="line"/>
+      <point x="797" y="927"/>
+      <point x="897" y="749"/>
+      <point x="897" y="524" type="curve" smooth="yes"/>
+      <point x="897" y="229"/>
+      <point x="717" y="-30"/>
+      <point x="471" y="-30" type="curve" smooth="yes"/>
+      <point x="371" y="-30"/>
+      <point x="195" y="5"/>
+      <point x="90" y="77" type="curve"/>
+      <point x="90" y="930" type="line" smooth="yes"/>
+      <point x="90" y="1349"/>
+      <point x="312" y="1550"/>
+      <point x="531" y="1550" type="curve" smooth="yes"/>
+      <point x="743" y="1550"/>
+      <point x="808" y="1414"/>
+      <point x="808" y="1291" type="curve" smooth="yes"/>
+      <point x="808" y="1137"/>
+      <point x="699" y="996"/>
+      <point x="563" y="921" type="curve"/>
+      <point x="553" y="921" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=LtnSmB+80</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=LtnSmB</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
 </glyph>

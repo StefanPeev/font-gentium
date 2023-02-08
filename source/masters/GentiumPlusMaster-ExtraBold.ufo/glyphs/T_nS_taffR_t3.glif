@@ -4,6 +4,5 @@
   <anchor x="-20" y="765" name="TL_"/>
   <outline>
     <component base="TnLtrBar"/>
-    <component base="TnLtrSpcFlatRight"/>
   </outline>
 </glyph>

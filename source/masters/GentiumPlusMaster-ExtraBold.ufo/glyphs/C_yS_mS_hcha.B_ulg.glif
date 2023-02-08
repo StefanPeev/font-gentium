@@ -4,6 +4,26 @@
   <anchor x="755" y="-100" name="L"/>
   <anchor x="755" y="1050" name="U"/>
   <outline>
-    <component base="CySmShcha"/>
+    <component base="CySmSha.Bulg"/>
+    <contour>
+      <point x="1454" y="0" type="line"/>
+      <point x="1472" y="0" type="line" smooth="yes"/>
+      <point x="1527" y="0"/>
+      <point x="1563" y="-198"/>
+      <point x="1554" y="-380" type="curve"/>
+      <point x="1641" y="-380" type="line"/>
+      <point x="1668" y="-301"/>
+      <point x="1725" y="36"/>
+      <point x="1734" y="177" type="curve"/>
+      <point x="1698" y="207" type="line"/>
+      <point x="1563" y="141" type="line"/>
+      <point x="1454" y="141" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
 </glyph>

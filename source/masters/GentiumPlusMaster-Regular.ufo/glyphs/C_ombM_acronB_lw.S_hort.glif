@@ -4,7 +4,6 @@
   <anchor x="-275" y="-100" name="_L"/>
   <outline>
     <contour>
-      <point x="-23" y="-258"/>
       <point x="-17" y="-229" type="curve"/>
       <point x="-39" y="-205" type="line"/>
       <point x="-492" y="-205" type="line"/>
@@ -14,6 +13,7 @@
       <point x="-511" y="-335" type="line"/>
       <point x="-56" y="-335" type="line"/>
       <point x="-46" y="-310"/>
+      <point x="-23" y="-258"/>
     </contour>
   </outline>
 </glyph>

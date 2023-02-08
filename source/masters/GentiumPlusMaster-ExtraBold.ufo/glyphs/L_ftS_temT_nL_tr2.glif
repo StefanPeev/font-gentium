@@ -3,9 +3,7 @@
   <advance width="834"/>
   <unicode hex="A715"/>
   <outline>
-    <component base="TnLtrSpcFlatLeft"/>
     <component base="TnLtrBar" xOffset="165"/>
     <component base="TnLtrSeg22" xOffset="165"/>
-    <component base="TnLtrSpcPointRight" xOffset="665"/>
   </outline>
 </glyph>

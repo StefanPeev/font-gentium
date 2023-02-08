@@ -4,7 +4,6 @@
   <anchor x="639" y="765" name="TL"/>
   <anchor x="140" y="55" name="TL_"/>
   <outline>
-    <component base="TnLtrSpcPointLeft"/>
     <component base="TnLtrSeg13" xOffset="139"/>
   </outline>
 </glyph>

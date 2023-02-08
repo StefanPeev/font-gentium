@@ -2,13 +2,12 @@
 <glyph name="LtnSmC" format="2">
   <advance width="945"/>
   <unicode hex="0063"/>
-  <anchor x="518" y="0" name="H"/>
+  <anchor x="518" y="-0" name="H"/>
   <anchor x="518" y="-100" name="L"/>
   <anchor x="945" y="900" name="R"/>
   <anchor x="518" y="1050" name="U"/>
   <outline>
     <contour>
-      <point x="736" y="-4"/>
       <point x="910" y="190" type="curve"/>
       <point x="851" y="261" type="line"/>
       <point x="713" y="164"/>
@@ -37,6 +36,7 @@
       <point x="260" y="-30"/>
       <point x="485" y="-30" type="curve" smooth="yes"/>
       <point x="610" y="-30"/>
+      <point x="736" y="-4"/>
     </contour>
   </outline>
 </glyph>

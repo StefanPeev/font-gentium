@@ -33,7 +33,6 @@
       <point x="299" y="83"/>
     </contour>
     <contour>
-      <point x="888" y="973"/>
       <point x="869" y="989" type="curve" smooth="yes"/>
       <point x="820" y="1030"/>
       <point x="685" y="1065"/>
@@ -80,6 +79,7 @@
       <point x="710" y="807" type="curve"/>
       <point x="786" y="802" type="line"/>
       <point x="818" y="828"/>
+      <point x="888" y="973"/>
     </contour>
   </outline>
 </glyph>

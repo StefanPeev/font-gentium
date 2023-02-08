@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmKa.Bulg.sc" format="2">
-  <advance width="1370"/>
-  <anchor x="740" y="-100" name="L"/>
-  <anchor x="740" y="1370" name="U"/>
+  <advance width="1271"/>
+  <anchor x="325" y="0" name="H"/>
+  <anchor x="660" y="-83" name="L"/>
+  <anchor x="636" y="1132" name="U"/>
   <outline>
-    <component base="CyCapKa"/>
+    <component base="LtnSmK.sc"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>LtnSmK.sc</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
 </glyph>

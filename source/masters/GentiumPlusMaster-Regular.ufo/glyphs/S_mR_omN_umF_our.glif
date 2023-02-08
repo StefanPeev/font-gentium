@@ -5,6 +5,5 @@
   <anchor x="781" y="1370" name="U"/>
   <outline>
     <component base="LtnSmI"/>
-    <component base="LtnSmV" xOffset="555"/>
   </outline>
 </glyph>

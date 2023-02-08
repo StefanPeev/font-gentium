@@ -6,7 +6,6 @@
   <anchor x="866" y="1370" name="U"/>
   <outline>
     <contour>
-      <point x="1086" y="0"/>
       <point x="1107" y="59" type="curve"/>
       <point x="1470" y="1151" type="line"/>
       <point x="1483" y="1188"/>
@@ -37,6 +36,7 @@
       <point x="789" y="445" type="line"/>
       <point x="957" y="-30" type="line"/>
       <point x="992" y="-22"/>
+      <point x="1086" y="0"/>
     </contour>
     <contour>
       <point x="582" y="1049" type="line"/>

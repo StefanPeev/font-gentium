@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapKa.Bulg" format="2">
-  <advance width="1220"/>
-  <anchor x="640" y="-100" name="L"/>
-  <anchor x="640" y="1370" name="U"/>
+  <advance width="1184"/>
+  <anchor x="275" y="0" name="H"/>
+  <anchor x="612" y="-100" name="L"/>
+  <anchor x="590" y="1370" name="U"/>
   <outline>
-    <component base="CyCapKa"/>
+    <component base="LtnCapK"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>LtnCapK</string>
+  </dict>
+  </lib>
 </glyph>

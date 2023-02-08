@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>loclBGR</key>
+  <array>
+    <string>CyCapDe.Bulg</string>
+    <string>CyCapKa.Bulg</string>
+    <string>CyCapEl.Bulg</string>
+    <string>CySmVe.Bulg</string>
+    <string>CySmGhe.Bulg</string>
+    <string>CySmDe.Bulg</string>
+    <string>CySmZhe.Bulg</string>
+    <string>CySmZe.Bulg</string>
+    <string>CySmI.Bulg</string>
+    <string>CySmShortI.Bulg</string>
+    <string>CySmKa.Bulg</string>
+    <string>CySmEl.Bulg</string>
+    <string>CySmEn.Bulg</string>
+    <string>CySmPe.Bulg</string>
+    <string>CySmTe.Bulg</string>
+    <string>CySmTse.Bulg</string>
+    <string>CySmChe.Bulg</string>
+    <string>CySmSha.Bulg</string>
+    <string>CySmShcha.Bulg</string>
+    <string>CySmHardSgn.Bulg</string>
+    <string>CySmSoftSgn.Bulg</string>
+    <string>CySmYu.Bulg</string>
+    <string>CySmIGrave.Bulg</string>
+    <string>CyCapI.Bulg</string>
+    <string>CyCapShortI.Bulg</string>
+    <string>CyCapIGrave.Bulg</string>
+  </array>
+  <key>loclCYR</key>
+  <array>
+    <string>CyCapDe</string>
+    <string>CyCapKa</string>
+    <string>CyCapEl</string>
+    <string>CySmVe</string>
+    <string>CySmGhe</string>
+    <string>CySmDe</string>
+    <string>CySmZhe</string>
+    <string>CySmZe</string>
+    <string>CySmI</string>
+    <string>CySmShortI</string>
+    <string>CySmKa</string>
+    <string>CySmEl</string>
+    <string>CySmEn</string>
+    <string>CySmPe</string>
+    <string>CySmTe</string>
+    <string>CySmTse</string>
+    <string>CySmChe</string>
+    <string>CySmSha</string>
+    <string>CySmShcha</string>
+    <string>CySmHardSgn</string>
+    <string>CySmSoftSgn</string>
+    <string>CySmYu</string>
+    <string>CySmIGrave</string>
+    <string>CyCapI</string>
+    <string>CyCapShortI</string>
+    <string>CyCapIGrave</string>
+  </array>
   <key>public.kern1.FullStop</key>
   <array>
     <string>Comma</string>
