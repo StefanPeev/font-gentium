@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmZhe.Bulg.sc" format="2">
-  <advance width="1990"/>
-  <anchor x="991" y="-100" name="L"/>
-  <anchor x="991" y="1370" name="U"/>
+  <advance width="1912"/>
+  <anchor x="962" y="-100" name="L"/>
+  <anchor x="962" y="1370" name="U"/>
   <outline>
-    <component base="CyCapZhe"/>
+    <component base="LtnSmK.sc" xOffset="641"/>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
 </glyph>

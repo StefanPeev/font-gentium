@@ -1,7 +1,9 @@
 #> classes
 #/> otclasses
-@loclBGR = [CyCapDe.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg];
-@loclCYR = [CyCapDe CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave CyCapI CyCapShortI CyCapIGrave];
+@loclCYR = [CyCapDe CyCapZhe CyCapI CyCapShortI CyCapIGrave CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave];
+@loclBGR = [CyCapDe.Bulg CyCapZhe.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg];
+@CySmBasic = [CySmA CySmBe CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmIe CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmIGrave.Bulg CySmKa.Bulg CySmEl.Bulg CySmEm CySmEn.Bulg CySmO CySmPe.Bulg CySmEr CySmEs CySmTe.Bulg CySmU CySmEf CySmHa CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmYeru CySmSoftSgn.Bulg CySmE CySmYu.Bulg CySmYa];
+@CySmBGR = [CySmA.sc CySmBe.sc CySmVe.sc CySmGhe.sc CySmDe.Bulg.sc CySmIe.sc CySmZhe.Bulg.sc CySmZe.sc CySmI.Bulg.sc CySmShortI.Bulg.sc CySmIGrave.Bulg.sc CySmKa.Bulg.sc CySmEl.Bulg.sc CySmEm.sc CySmEn.sc CySmO.sc CySmPe.sc CySmEr.sc CySmEs.sc CySmTe.sc CySmU.sc CySmEf.sc CySmHa.sc CySmTse.sc CySmChe.sc CySmSha.sc CySmShcha.sc CySmHardSgn.sc CySmYeru.sc CySmSoftSgn.sc CySmE.sc CySmYu.sc CySmYa.sc];
 #/< otclasses
 #< classes
 
@@ -18,19 +20,26 @@ languagesystem nbat dflt;
 
 #> classes
 #/> otclasses
-@loclBGR = [CyCapDe.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg];
-@loclCYR = [CyCapDe CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave CyCapI CyCapShortI CyCapIGrave];
+@loclCYR = [CyCapDe CyCapZhe CyCapI CyCapShortI CyCapIGrave CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave];
+@loclBGR = [CyCapDe.Bulg CyCapZhe.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg];
 #/< otclasses
 
 lookup bgr_sub {
     lookupflag 0;
     sub @loclCYR by @loclBGR;
 } bgr_sub;
+
+lookup cyrsmcp_sub {
+    lookupflag 0;
+    sub @CySmBasic by @CySmBGR;
+} cyrsmcp_sub;
+
 feature aalt {
 # Access All Alternates
 
 #> feature
   feature locl;
+  feature smcp;
 #< feature
 } aalt;
 feature locl {
@@ -39,3 +48,13 @@ feature locl {
     #Bulgarian
     lookup bgr_sub;
 } locl;
+feature smcp {
+# Small Caps
+
+#> feature
+    script cyrl;
+    language BGR exclude_dflt;
+    #Bulgarian
+    lookup cyrsmcp_sub;
+#< feature
+} smcp;

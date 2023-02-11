@@ -6,6 +6,7 @@
   <anchor x="460" y="0" name="O"/>
   <anchor x="536" y="1370" name="U"/>
   <outline>
+    <component base="LtnSmV"/>
     <component base="CombTilde.LP" xOffset="1051"/>
   </outline>
   <lib>

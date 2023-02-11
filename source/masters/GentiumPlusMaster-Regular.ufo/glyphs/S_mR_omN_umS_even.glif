@@ -4,6 +4,7 @@
   <unicode hex="2176"/>
   <anchor x="1052" y="1370" name="U"/>
   <outline>
+    <component base="LtnSmV"/>
     <component base="LtnSmI" xOffset="1010"/>
     <component base="LtnSmI" xOffset="1565"/>
   </outline>

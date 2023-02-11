@@ -31,20 +31,6 @@
       <point x="116" y="72"/>
       <point x="100" y="62"/>
     </contour>
-    <contour>
-      <point x="563" y="770" type="line"/>
-      <point x="563" y="921" type="line"/>
-      <point x="548" y="960" type="line"/>
-      <point x="535" y="960" type="line"/>
-      <point x="447" y="925"/>
-      <point x="380" y="906"/>
-      <point x="284" y="894" type="curve"/>
-      <point x="284" y="854" type="line"/>
-      <point x="407" y="842"/>
-      <point x="413" y="798"/>
-      <point x="413" y="781" type="curve" smooth="yes"/>
-      <point x="413" y="770" type="line"/>
-    </contour>
   </outline>
   <lib>
   <dict>

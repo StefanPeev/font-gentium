@@ -1,54 +1,10 @@
 #> classes
 #/> otclasses
-@loclBGR = [CyCapDe.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg];
-@loclCYR = [CyCapDe CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave CyCapI CyCapShortI CyCapIGrave];
+@loclCYR = [CyCapDe CyCapZhe CyCapI CyCapShortI CyCapIGrave CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave];
+@loclBGR = [CyCapDe.Bulg CyCapZhe.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg];
+@CySmBasic = [CySmA CySmBe CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmIe CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmIGrave.Bulg CySmKa.Bulg CySmEl.Bulg CySmEm CySmEn.Bulg CySmO CySmPe.Bulg CySmEr CySmEs CySmTe.Bulg CySmU CySmEf CySmHa CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmYeru CySmSoftSgn.Bulg CySmE CySmYu.Bulg CySmYa];
+@CySmBGR = [CySmA.sc CySmBe.sc CySmVe.sc CySmGhe.sc CySmDe.Bulg.sc CySmIe.sc CySmZhe.Bulg.sc CySmZe.sc CySmI.Bulg.sc CySmShortI.Bulg.sc CySmIGrave.Bulg.sc CySmKa.Bulg.sc CySmEl.Bulg.sc CySmEm.sc CySmEn.sc CySmO.sc CySmPe.sc CySmEr.sc CySmEs.sc CySmTe.sc CySmU.sc CySmEf.sc CySmHa.sc CySmTse.sc CySmChe.sc CySmSha.sc CySmShcha.sc CySmHardSgn.sc CySmYeru.sc CySmSoftSgn.sc CySmE.sc CySmYu.sc CySmYa.sc];
 #/< otclasses
-
-#/> kernclasses
-@public.kern1.FullStop = [Comma FullStop];
-@public.kern1.GrCapAlpha = [GrCapAlpha GrCapAlphaWMacron GrCapAlphaWVrachy];
-@public.kern1.GrCapAlphaWTonos = [GrCapAlphaWDasia GrCapAlphaWDasiaOxia GrCapAlphaWDasiaOxiaPros.ISub GrCapAlphaWDasiaPeris GrCapAlphaWDasiaPeris.Por GrCapAlphaWDasiaPerisPros.ISub GrCapAlphaWDasiaPerisPros.Por.ISub GrCapAlphaWDasiaPros.ISub GrCapAlphaWDasiaVaria GrCapAlphaWDasiaVariaPros.ISub GrCapAlphaWOxia GrCapAlphaWPros.ISub GrCapAlphaWPsili GrCapAlphaWPsiliOxia GrCapAlphaWPsiliOxiaPros.ISub GrCapAlphaWPsiliPeris GrCapAlphaWPsiliPeris.Por GrCapAlphaWPsiliPerisPros.ISub GrCapAlphaWPsiliPerisPros.Por.ISub GrCapAlphaWPsiliPros.ISub GrCapAlphaWPsiliVaria GrCapAlphaWPsiliVariaPros.ISub GrCapAlphaWTonos GrCapAlphaWVaria];
-@public.kern1.GrCapOmegaWTonos = [GrCapOmegaWDasia GrCapOmegaWDasiaOxia GrCapOmegaWDasiaOxiaPros.ISub GrCapOmegaWDasiaPeris GrCapOmegaWDasiaPeris.Por GrCapOmegaWDasiaPerisPros.ISub GrCapOmegaWDasiaPerisPros.Por.ISub GrCapOmegaWDasiaPros.ISub GrCapOmegaWDasiaVaria GrCapOmegaWDasiaVariaPros.ISub GrCapOmegaWOxia GrCapOmegaWPros.ISub GrCapOmegaWPsili GrCapOmegaWPsiliOxia GrCapOmegaWPsiliOxiaPros.ISub GrCapOmegaWPsiliPeris GrCapOmegaWPsiliPeris.Por GrCapOmegaWPsiliPerisPros.ISub GrCapOmegaWPsiliPerisPros.Por.ISub GrCapOmegaWPsiliPros.ISub GrCapOmegaWPsiliVaria GrCapOmegaWPsiliVariaPros.ISub GrCapOmegaWTonos GrCapOmegaWVaria];
-@public.kern1.GrCapOmicronWTonos = [GrCapOmicronWDasia GrCapOmicronWDasiaOxia GrCapOmicronWDasiaVaria GrCapOmicronWOxia GrCapOmicronWPsili GrCapOmicronWPsiliOxia GrCapOmicronWPsiliVaria GrCapOmicronWTonos GrCapOmicronWVaria];
-@public.kern1.GrCapUpsilon = [GrCapUpsilon GrCapUpsilonWDial GrCapUpsilonWMacron GrCapUpsilonWVrachy];
-@public.kern1.GrCapUpsilonWTonos = [GrCapUpsilonWDasia GrCapUpsilonWDasiaOxia GrCapUpsilonWDasiaPeris GrCapUpsilonWDasiaPeris.Por GrCapUpsilonWDasiaVaria GrCapUpsilonWOxia GrCapUpsilonWTonos GrCapUpsilonWVaria];
-@public.kern1.GrSmAlpha = [GrSmAlpha GrSmAlphaWMacron GrSmAlphaWOxia GrSmAlphaWOxiaYpo GrSmAlphaWPeris GrSmAlphaWPeris.Por GrSmAlphaWPerisYpo GrSmAlphaWPerisYpo.Por GrSmAlphaWTonos GrSmAlphaWVaria GrSmAlphaWVariaYpo GrSmAlphaWVrachy GrSmAlphaWYpo];
-@public.kern1.GrSmAlphaWPsili = [GrSmAlphaWDasia GrSmAlphaWDasiaOxia GrSmAlphaWDasiaOxiaYpo GrSmAlphaWDasiaPeris GrSmAlphaWDasiaPeris.Por GrSmAlphaWDasiaPerisYpo GrSmAlphaWDasiaPerisYpo.Por GrSmAlphaWDasiaVaria GrSmAlphaWDasiaVariaYpo GrSmAlphaWDasiaYpo GrSmAlphaWPsili GrSmAlphaWPsiliOxia GrSmAlphaWPsiliOxiaYpo GrSmAlphaWPsiliPeris GrSmAlphaWPsiliPeris.Por GrSmAlphaWPsiliPerisYpo GrSmAlphaWPsiliPerisYpo.Por GrSmAlphaWPsiliVaria GrSmAlphaWPsiliVariaYpo GrSmAlphaWPsiliYpo];
-@public.kern1.GrSmEpsilon = [GrSmEpsilon GrSmEpsilonWOxia GrSmEpsilonWTonos GrSmEpsilonWVaria];
-@public.kern1.GrSmEpsilonWPsili = [GrSmEpsilonWDasia GrSmEpsilonWDasiaOxia GrSmEpsilonWDasiaVaria GrSmEpsilonWPsili GrSmEpsilonWPsiliOxia GrSmEpsilonWPsiliVaria];
-@public.kern1.GrSmEta = [GrSmEta GrSmEtaWOxia GrSmEtaWOxiaYpo GrSmEtaWPeris GrSmEtaWPeris.Por GrSmEtaWPerisYpo GrSmEtaWPerisYpo.Por GrSmEtaWTonos GrSmEtaWVaria GrSmEtaWVariaYpo GrSmEtaWYpo];
-@public.kern1.GrSmEtaWPsili = [GrSmEtaWDasia GrSmEtaWDasiaOxia GrSmEtaWDasiaOxiaYpo GrSmEtaWDasiaPeris GrSmEtaWDasiaPeris.Por GrSmEtaWDasiaPerisYpo GrSmEtaWDasiaPerisYpo.Por GrSmEtaWDasiaVaria GrSmEtaWDasiaVariaYpo GrSmEtaWDasiaYpo GrSmEtaWPsili GrSmEtaWPsiliOxia GrSmEtaWPsiliOxiaYpo GrSmEtaWPsiliPeris GrSmEtaWPsiliPeris.Por GrSmEtaWPsiliPerisYpo GrSmEtaWPsiliPerisYpo.Por GrSmEtaWPsiliVaria GrSmEtaWPsiliVariaYpo GrSmEtaWPsiliYpo];
-@public.kern1.GrSmIota = [GrPros GrSmIota GrSmIotaWMacron GrSmIotaWOxia GrSmIotaWPeris GrSmIotaWPeris.Por GrSmIotaWTonos GrSmIotaWVaria GrSmIotaWVrachy];
-@public.kern1.GrSmIotaWDial = [GrSmIotaWDial GrSmIotaWDialOxia GrSmIotaWDialPeris GrSmIotaWDialPeris.Por GrSmIotaWDialTonos GrSmIotaWDialVaria];
-@public.kern1.GrSmIotaWPsili = [GrSmIotaWDasia GrSmIotaWDasiaOxia GrSmIotaWDasiaPeris GrSmIotaWDasiaPeris.Por GrSmIotaWDasiaVaria GrSmIotaWPsili GrSmIotaWPsiliOxia GrSmIotaWPsiliPeris GrSmIotaWPsiliPeris.Por GrSmIotaWPsiliVaria];
-@public.kern1.GrSmOmega = [GrSmOmega GrSmOmegaWOxia GrSmOmegaWOxiaYpo GrSmOmegaWPeris GrSmOmegaWPeris.Por GrSmOmegaWPerisYpo GrSmOmegaWPerisYpo.Por GrSmOmegaWTonos GrSmOmegaWVaria GrSmOmegaWVariaYpo GrSmOmegaWYpo];
-@public.kern1.GrSmOmegaWPsili = [GrSmOmegaWDasia GrSmOmegaWDasiaOxia GrSmOmegaWDasiaOxiaYpo GrSmOmegaWDasiaPeris GrSmOmegaWDasiaPeris.Por GrSmOmegaWDasiaPerisYpo GrSmOmegaWDasiaPerisYpo.Por GrSmOmegaWDasiaVaria GrSmOmegaWDasiaVariaYpo GrSmOmegaWDasiaYpo GrSmOmegaWPsili GrSmOmegaWPsiliOxia GrSmOmegaWPsiliOxiaYpo GrSmOmegaWPsiliPeris GrSmOmegaWPsiliPeris.Por GrSmOmegaWPsiliPerisYpo GrSmOmegaWPsiliPerisYpo.Por GrSmOmegaWPsiliVaria GrSmOmegaWPsiliVariaYpo GrSmOmegaWPsiliYpo];
-@public.kern1.GrSmOmicron = [GrSmOmicron GrSmOmicronWOxia GrSmOmicronWTonos GrSmOmicronWVaria];
-@public.kern1.GrSmOmicronWPsili = [GrSmOmicronWDasia GrSmOmicronWDasiaOxia GrSmOmicronWDasiaVaria GrSmOmicronWPsili GrSmOmicronWPsiliOxia GrSmOmicronWPsiliVaria];
-@public.kern1.GrSmUpsilon = [GrSmUpsilon GrSmUpsilonWMacron GrSmUpsilonWOxia GrSmUpsilonWPeris GrSmUpsilonWPeris.Por GrSmUpsilonWTonos GrSmUpsilonWVaria GrSmUpsilonWVrachy];
-@public.kern1.GrSmUpsilonWDial = [GrSmUpsilonWDial GrSmUpsilonWDialOxia GrSmUpsilonWDialPeris GrSmUpsilonWDialPeris.Por GrSmUpsilonWDialTonos GrSmUpsilonWDialVaria];
-@public.kern1.GrSmUpsilonWPsili = [GrSmUpsilonWDasia GrSmUpsilonWDasiaOxia GrSmUpsilonWDasiaPeris GrSmUpsilonWDasiaPeris.Por GrSmUpsilonWDasiaVaria GrSmUpsilonWPsili GrSmUpsilonWPsiliOxia GrSmUpsilonWPsiliPeris GrSmUpsilonWPsiliPeris.Por GrSmUpsilonWPsiliVaria];
-@public.kern1.LftDblQuotMrk = [LftDblQuotMrk LftSglQuotMrk];
-@public.kern1.RtDblQuotMrk = [RtDblQuotMrk RtSglQuotMrk];
-@public.kern2.FullStop = [Comma FullStop];
-@public.kern2.GrCapAlpha = [GrCapAlpha GrCapAlphaWMacron GrCapAlphaWVrachy];
-@public.kern2.GrCapUpsilon = [GrCapUpsilon GrCapUpsilonWDial GrCapUpsilonWMacron GrCapUpsilonWVrachy];
-@public.kern2.GrSmAlpha = [GrSmAlpha GrSmAlphaWMacron GrSmAlphaWOxia GrSmAlphaWOxiaYpo GrSmAlphaWPeris GrSmAlphaWPeris.Por GrSmAlphaWPerisYpo GrSmAlphaWPerisYpo.Por GrSmAlphaWTonos GrSmAlphaWVaria GrSmAlphaWVariaYpo GrSmAlphaWVrachy GrSmAlphaWYpo];
-@public.kern2.GrSmAlphaWPsili = [GrSmAlphaWDasia GrSmAlphaWDasiaOxia GrSmAlphaWDasiaOxiaYpo GrSmAlphaWDasiaPeris GrSmAlphaWDasiaPeris.Por GrSmAlphaWDasiaPerisYpo GrSmAlphaWDasiaPerisYpo.Por GrSmAlphaWDasiaVaria GrSmAlphaWDasiaVariaYpo GrSmAlphaWDasiaYpo GrSmAlphaWPsili GrSmAlphaWPsiliOxia GrSmAlphaWPsiliOxiaYpo GrSmAlphaWPsiliPeris GrSmAlphaWPsiliPeris.Por GrSmAlphaWPsiliPerisYpo GrSmAlphaWPsiliPerisYpo.Por GrSmAlphaWPsiliVaria GrSmAlphaWPsiliVariaYpo GrSmAlphaWPsiliYpo];
-@public.kern2.GrSmEpsilon = [GrSmEpsilon GrSmEpsilonWOxia GrSmEpsilonWTonos GrSmEpsilonWVaria];
-@public.kern2.GrSmEpsilonWPsili = [GrSmEpsilonWDasia GrSmEpsilonWDasiaOxia GrSmEpsilonWDasiaVaria GrSmEpsilonWPsili GrSmEpsilonWPsiliOxia GrSmEpsilonWPsiliVaria];
-@public.kern2.GrSmEta = [GrSmEta GrSmEtaWOxia GrSmEtaWOxiaYpo GrSmEtaWPeris GrSmEtaWPeris.Por GrSmEtaWPerisYpo GrSmEtaWPerisYpo.Por GrSmEtaWTonos GrSmEtaWVaria GrSmEtaWVariaYpo GrSmEtaWYpo];
-@public.kern2.GrSmIota = [GrPros GrSmIota GrSmIotaWMacron GrSmIotaWOxia GrSmIotaWPeris GrSmIotaWPeris.Por GrSmIotaWTonos GrSmIotaWVaria GrSmIotaWVrachy];
-@public.kern2.GrSmIotaWDial = [GrSmIotaWDial GrSmIotaWDialOxia GrSmIotaWDialPeris GrSmIotaWDialPeris.Por GrSmIotaWDialTonos GrSmIotaWDialVaria];
-@public.kern2.GrSmIotaWPsili = [GrSmIotaWDasia GrSmIotaWDasiaOxia GrSmIotaWDasiaPeris GrSmIotaWDasiaPeris.Por GrSmIotaWDasiaVaria GrSmIotaWPsili GrSmIotaWPsiliOxia GrSmIotaWPsiliPeris GrSmIotaWPsiliPeris.Por GrSmIotaWPsiliVaria];
-@public.kern2.GrSmOmega = [GrSmOmega GrSmOmegaWOxia GrSmOmegaWOxiaYpo GrSmOmegaWPeris GrSmOmegaWPeris.Por GrSmOmegaWPerisYpo GrSmOmegaWPerisYpo.Por GrSmOmegaWTonos GrSmOmegaWVaria GrSmOmegaWVariaYpo GrSmOmegaWYpo];
-@public.kern2.GrSmOmegaWPsili = [GrSmOmegaWDasia GrSmOmegaWDasiaOxia GrSmOmegaWDasiaOxiaYpo GrSmOmegaWDasiaPeris GrSmOmegaWDasiaPeris.Por GrSmOmegaWDasiaPerisYpo GrSmOmegaWDasiaPerisYpo.Por GrSmOmegaWDasiaVaria GrSmOmegaWDasiaVariaYpo GrSmOmegaWDasiaYpo GrSmOmegaWPsili GrSmOmegaWPsiliOxia GrSmOmegaWPsiliOxiaYpo GrSmOmegaWPsiliPeris GrSmOmegaWPsiliPeris.Por GrSmOmegaWPsiliPerisYpo GrSmOmegaWPsiliPerisYpo.Por GrSmOmegaWPsiliVaria GrSmOmegaWPsiliVariaYpo GrSmOmegaWPsiliYpo];
-@public.kern2.GrSmOmicron = [GrSmOmicron GrSmOmicronWOxia GrSmOmicronWTonos GrSmOmicronWVaria];
-@public.kern2.GrSmUpsilon = [GrSmUpsilon GrSmUpsilonWMacron GrSmUpsilonWOxia GrSmUpsilonWPeris GrSmUpsilonWPeris.Por GrSmUpsilonWTonos GrSmUpsilonWVaria GrSmUpsilonWVrachy];
-@public.kern2.GrSmUpsilonWDial = [GrSmUpsilonWDial GrSmUpsilonWDialOxia GrSmUpsilonWDialPeris GrSmUpsilonWDialPeris.Por GrSmUpsilonWDialTonos GrSmUpsilonWDialVaria];
-@public.kern2.GrSmUpsilonWPsili = [GrSmUpsilonWDasia GrSmUpsilonWDasiaOxia GrSmUpsilonWDasiaPeris GrSmUpsilonWDasiaPeris.Por GrSmUpsilonWDasiaVaria GrSmUpsilonWPsili GrSmUpsilonWPsiliOxia GrSmUpsilonWPsiliPeris GrSmUpsilonWPsiliPeris.Por GrSmUpsilonWPsiliVaria];
-@public.kern2.RtDblQuotMrk = [RtDblQuotMrk RtSglQuotMrk];
-#/< kernclasses
 #< classes
 
 #> languagesystem
@@ -64,19 +20,26 @@ languagesystem nbat dflt;
 
 #> classes
 #/> otclasses
-@loclBGR = [CyCapDe.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg];
-@loclCYR = [CyCapDe CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave CyCapI CyCapShortI CyCapIGrave];
+@loclCYR = [CyCapDe CyCapZhe CyCapI CyCapShortI CyCapIGrave CyCapKa CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu CySmIGrave];
+@loclBGR = [CyCapDe.Bulg CyCapZhe.Bulg CyCapI.Bulg CyCapShortI.Bulg CyCapIGrave.Bulg CyCapKa.Bulg CyCapEl.Bulg CySmVe.Bulg CySmGhe.Bulg CySmDe.Bulg CySmZhe.Bulg CySmZe.Bulg CySmI.Bulg CySmShortI.Bulg CySmKa.Bulg CySmEl.Bulg CySmEn.Bulg CySmPe.Bulg CySmTe.Bulg CySmTse.Bulg CySmChe.Bulg CySmSha.Bulg CySmShcha.Bulg CySmHardSgn.Bulg CySmSoftSgn.Bulg CySmYu.Bulg CySmIGrave.Bulg];
 #/< otclasses
 
 lookup bgr_sub {
     lookupflag 0;
     sub @loclCYR by @loclBGR;
 } bgr_sub;
+
+lookup cyrsmcp_sub {
+    lookupflag 0;
+    sub @CySmBasic by @CySmBGR;
+} cyrsmcp_sub;
+
 feature aalt {
 # Access All Alternates
 
 #> feature
   feature locl;
+  feature smcp;
 #< feature
 } aalt;
 feature locl {
@@ -85,3 +48,13 @@ feature locl {
     #Bulgarian
     lookup bgr_sub;
 } locl;
+feature smcp {
+# Small Caps
+
+#> feature
+    script cyrl;
+    language BGR exclude_dflt;
+    #Bulgarian
+    lookup cyrsmcp_sub;
+#< feature
+} smcp;

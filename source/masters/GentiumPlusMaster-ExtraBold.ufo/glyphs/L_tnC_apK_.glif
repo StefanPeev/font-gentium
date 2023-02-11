@@ -7,6 +7,28 @@
   <anchor x="642" y="1370" name="U"/>
   <outline>
     <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="590" y="83" type="line"/>
+      <point x="493" y="101"/>
+      <point x="455" y="128"/>
+      <point x="455" y="144" type="curve" smooth="yes"/>
+      <point x="455" y="1115" type="line" smooth="yes"/>
+      <point x="455" y="1134"/>
+      <point x="500" y="1158"/>
+      <point x="590" y="1177" type="curve"/>
+      <point x="590" y="1260" type="line"/>
+      <point x="40" y="1260" type="line"/>
+      <point x="40" y="1177" type="line"/>
+      <point x="136" y="1158"/>
+      <point x="175" y="1131"/>
+      <point x="175" y="1115" type="curve" smooth="yes"/>
+      <point x="175" y="144" type="line" smooth="yes"/>
+      <point x="175" y="126"/>
+      <point x="130" y="101"/>
+      <point x="40" y="83" type="curve"/>
+    </contour>
+    <contour>
       <point x="1230" y="1177" type="curve"/>
       <point x="1230" y="1260" type="line"/>
       <point x="770" y="1260" type="line"/>
@@ -34,28 +56,6 @@
       <point x="1018" y="-14" type="curve" smooth="yes"/>
       <point x="1082" y="-14"/>
       <point x="1216" y="32"/>
-    </contour>
-    <contour>
-      <point x="40" y="0" type="line"/>
-      <point x="590" y="0" type="line"/>
-      <point x="590" y="83" type="line"/>
-      <point x="493" y="101"/>
-      <point x="455" y="128"/>
-      <point x="455" y="144" type="curve" smooth="yes"/>
-      <point x="455" y="1115" type="line" smooth="yes"/>
-      <point x="455" y="1134"/>
-      <point x="500" y="1158"/>
-      <point x="590" y="1177" type="curve"/>
-      <point x="590" y="1260" type="line"/>
-      <point x="40" y="1260" type="line"/>
-      <point x="40" y="1177" type="line"/>
-      <point x="136" y="1158"/>
-      <point x="175" y="1131"/>
-      <point x="175" y="1115" type="curve" smooth="yes"/>
-      <point x="175" y="144" type="line" smooth="yes"/>
-      <point x="175" y="126"/>
-      <point x="130" y="101"/>
-      <point x="40" y="83" type="curve"/>
     </contour>
   </outline>
 </glyph>

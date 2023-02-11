@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapEl.Bulg" format="2">
-  <advance width="1278"/>
+  <advance width="1219"/>
   <anchor x="632" y="-100" name="L"/>
   <anchor x="700" y="1370" name="U"/>
   <outline>
-    <component base="CyCapEl"/>
+    <component base="LtnCapA"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=LtnCapA</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=LtnCapA</string>
+  </dict>
+  </lib>
 </glyph>

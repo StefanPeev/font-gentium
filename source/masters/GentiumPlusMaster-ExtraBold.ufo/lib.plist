@@ -93,8 +93,6 @@
   <string>GentiumPlusMaster-ExtraBold</string>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
-    <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
-    <array/>
     <key>com.schriftgestaltung.Glyphs.originalKerningGroups</key>
     <dict>
       <key>public.kern1.FullStop</key>
@@ -620,7 +618,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3112</string>
+  <integer>3112</integer>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>

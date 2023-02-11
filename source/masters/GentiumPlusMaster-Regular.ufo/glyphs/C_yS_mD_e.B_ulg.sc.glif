@@ -4,6 +4,25 @@
   <anchor x="609" y="-100" name="L"/>
   <anchor x="724" y="1370" name="U"/>
   <outline>
-    <component base="CyCapDe"/>
+    <component base="CySmEl.Bulg.sc"/>
+    <contour>
+      <point x="233" y="0" type="curve"/>
+      <point x="991" y="0" type="line" smooth="yes"/>
+      <point x="1042" y="0"/>
+      <point x="1066" y="-175"/>
+      <point x="1063" y="-380" type="curve"/>
+      <point x="1113" y="-380" type="line"/>
+      <point x="1148" y="-261"/>
+      <point x="1191" y="-62"/>
+      <point x="1199" y="65" type="curve"/>
+      <point x="1168" y="90" type="line"/>
+      <point x="50" y="90" type="line"/>
+      <point x="13" y="-50"/>
+      <point x="0" y="-267"/>
+      <point x="0" y="-380" type="curve"/>
+      <point x="50" y="-380" type="line"/>
+      <point x="120" y="-82"/>
+      <point x="193" y="-9"/>
+    </contour>
   </outline>
 </glyph>
