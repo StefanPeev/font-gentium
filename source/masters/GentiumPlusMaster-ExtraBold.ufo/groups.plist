@@ -2,6 +2,78 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>CyCapBGR</key>
+  <array>
+    <string>CySmA.sc</string>
+    <string>CySmBe.sc</string>
+    <string>CySmVe.sc</string>
+    <string>CySmGhe.sc</string>
+    <string>CySmDe.Bulg.sc</string>
+    <string>CySmIe.sc</string>
+    <string>CySmZhe.Bulg.sc</string>
+    <string>CySmZe.sc</string>
+    <string>CySmI.Bulg.sc</string>
+    <string>CySmShortI.Bulg.sc</string>
+    <string>CySmIGrave.Bulg.sc</string>
+    <string>CySmKa.Bulg.sc</string>
+    <string>CySmEl.Bulg.sc</string>
+    <string>CySmEm.sc</string>
+    <string>CySmEn.sc</string>
+    <string>CySmO.sc</string>
+    <string>CySmPe.sc</string>
+    <string>CySmEr.sc</string>
+    <string>CySmEs.sc</string>
+    <string>CySmTe.sc</string>
+    <string>CySmU.sc</string>
+    <string>CySmEf.Bulg.sc</string>
+    <string>CySmHa.sc</string>
+    <string>CySmTse.sc</string>
+    <string>CySmChe.sc</string>
+    <string>CySmSha.sc</string>
+    <string>CySmShcha.sc</string>
+    <string>CySmHardSgn.sc</string>
+    <string>CySmYeru.sc</string>
+    <string>CySmSoftSgn.sc</string>
+    <string>CySmE.sc</string>
+    <string>CySmYu.sc</string>
+    <string>CySmYa.sc</string>
+  </array>
+  <key>CyCapBasic</key>
+  <array>
+    <string>CyCapA</string>
+    <string>CyCapBe</string>
+    <string>CyCapVe</string>
+    <string>CyCapGhe</string>
+    <string>CyCapDe.Bulg</string>
+    <string>CyCapIe</string>
+    <string>CyCapZhe.Bulg</string>
+    <string>CyCapZe</string>
+    <string>CyCapI.Bulg</string>
+    <string>CyCapShortI.Bulg</string>
+    <string>CyCapIGrave.Bulg</string>
+    <string>CyCapKa.Bulg</string>
+    <string>CyCapEl.Bulg</string>
+    <string>CyCapEm</string>
+    <string>CyCapEn</string>
+    <string>CyCapO</string>
+    <string>CyCapPe</string>
+    <string>CyCapEr</string>
+    <string>CyCapEs</string>
+    <string>CyCapTe</string>
+    <string>CyCapU</string>
+    <string>CyCapEf</string>
+    <string>CyCapHa</string>
+    <string>CyCapTse</string>
+    <string>CyCapChe</string>
+    <string>CyCapSha</string>
+    <string>CyCapShcha</string>
+    <string>CyCapHardSgn</string>
+    <string>CyCapYeru</string>
+    <string>CyCapSoftSgn</string>
+    <string>CyCapE</string>
+    <string>CyCapYu</string>
+    <string>CyCapYa</string>
+  </array>
   <key>CySmBGR</key>
   <array>
     <string>CySmA.sc</string>
@@ -25,7 +97,7 @@
     <string>CySmEs.sc</string>
     <string>CySmTe.sc</string>
     <string>CySmU.sc</string>
-    <string>CySmEf.sc</string>
+    <string>CySmEf.Bulg.sc</string>
     <string>CySmHa.sc</string>
     <string>CySmTse.sc</string>
     <string>CySmChe.sc</string>

@@ -12,24 +12,32 @@
           <LangSysTag value="BGR "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
-            <!-- FeatureCount=2 -->
+            <!-- FeatureCount=3 -->
             <FeatureIndex index="0" value="0"/>
             <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
           </LangSys>
         </LangSysRecord>
       </Script>
     </ScriptRecord>
   </ScriptList>
   <FeatureList>
-    <!-- FeatureCount=2 -->
+    <!-- FeatureCount=3 -->
     <FeatureRecord index="0">
+      <FeatureTag value="c2sc"/>
+      <Feature>
+        <!-- LookupCount=1 -->
+        <LookupListIndex index="0" value="2"/>
+      </Feature>
+    </FeatureRecord>
+    <FeatureRecord index="1">
       <FeatureTag value="locl"/>
       <Feature>
         <!-- LookupCount=1 -->
         <LookupListIndex index="0" value="0"/>
       </Feature>
     </FeatureRecord>
-    <FeatureRecord index="1">
+    <FeatureRecord index="2">
       <FeatureTag value="smcp"/>
       <Feature>
         <!-- LookupCount=1 -->
@@ -38,7 +46,7 @@
     </FeatureRecord>
   </FeatureList>
   <LookupList>
-    <!-- LookupCount=2 -->
+    <!-- LookupCount=3 -->
     <Lookup index="0">
       <LookupType value="1"/>
       <LookupFlag value="0"/>
@@ -101,7 +109,7 @@
         <Substitution in="CySmPe.Bulg" out="CySmPe.sc"/>
         <Substitution in="CySmO" out="CySmO.sc"/>
         <Substitution in="CySmEr" out="CySmEr.sc"/>
-        <Substitution in="CySmEf" out="CySmEf.sc"/>
+        <Substitution in="CySmEf" out="CySmEf.Bulg.sc"/>
         <Substitution in="CySmYa" out="CySmYa.sc"/>
         <Substitution in="CySmGhe.Bulg" out="CySmGhe.sc"/>
         <Substitution in="CySmI.Bulg" out="CySmI.Bulg.sc"/>
@@ -111,6 +119,46 @@
         <Substitution in="CySmHa" out="CySmHa.sc"/>
         <Substitution in="CySmU" out="CySmU.sc"/>
         <Substitution in="CySmChe.Bulg" out="CySmChe.sc"/>
+      </SingleSubst>
+    </Lookup>
+    <Lookup index="2">
+      <LookupType value="1"/>
+      <LookupFlag value="0"/>
+      <!-- SubTableCount=1 -->
+      <SingleSubst index="0" Format="2">
+        <Substitution in="CyCapA" out="CySmA.sc"/>
+        <Substitution in="CyCapVe" out="CySmVe.sc"/>
+        <Substitution in="CyCapBe" out="CySmBe.sc"/>
+        <Substitution in="CyCapSoftSgn" out="CySmSoftSgn.sc"/>
+        <Substitution in="CyCapHardSgn" out="CySmHardSgn.sc"/>
+        <Substitution in="CyCapYeru" out="CySmYeru.sc"/>
+        <Substitution in="CyCapEs" out="CySmEs.sc"/>
+        <Substitution in="CyCapE" out="CySmE.sc"/>
+        <Substitution in="CyCapIe" out="CySmIe.sc"/>
+        <Substitution in="CyCapZe" out="CySmZe.sc"/>
+        <Substitution in="CyCapGhe" out="CySmGhe.sc"/>
+        <Substitution in="CyCapEn" out="CySmEn.sc"/>
+        <Substitution in="CyCapPe" out="CySmPe.sc"/>
+        <Substitution in="CyCapTse" out="CySmTse.sc"/>
+        <Substitution in="CyCapSha" out="CySmSha.sc"/>
+        <Substitution in="CyCapShcha" out="CySmShcha.sc"/>
+        <Substitution in="CyCapYu" out="CySmYu.sc"/>
+        <Substitution in="CyCapEl.Bulg" out="CySmEl.Bulg.sc"/>
+        <Substitution in="CyCapDe.Bulg" out="CySmDe.Bulg.sc"/>
+        <Substitution in="CyCapKa.Bulg" out="CySmKa.Bulg.sc"/>
+        <Substitution in="CyCapZhe.Bulg" out="CySmZhe.Bulg.sc"/>
+        <Substitution in="CyCapEm" out="CySmEm.sc"/>
+        <Substitution in="CyCapI.Bulg" out="CySmI.Bulg.sc"/>
+        <Substitution in="CyCapIGrave.Bulg" out="CySmIGrave.Bulg.sc"/>
+        <Substitution in="CyCapShortI.Bulg" out="CySmShortI.Bulg.sc"/>
+        <Substitution in="CyCapO" out="CySmO.sc"/>
+        <Substitution in="CyCapEr" out="CySmEr.sc"/>
+        <Substitution in="CyCapEf" out="CySmEf.Bulg.sc"/>
+        <Substitution in="CyCapYa" out="CySmYa.sc"/>
+        <Substitution in="CyCapTe" out="CySmTe.sc"/>
+        <Substitution in="CyCapHa" out="CySmHa.sc"/>
+        <Substitution in="CyCapU" out="CySmU.sc"/>
+        <Substitution in="CyCapChe" out="CySmChe.sc"/>
       </SingleSubst>
     </Lookup>
   </LookupList>

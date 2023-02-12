@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmEf.Bulg.sc" format="2">
-  <advance width="1307"/>
-  <anchor x="643" y="-100" name="L"/>
-  <anchor x="643" y="1370" name="U"/>
+  <advance width="1229"/>
+  <anchor x="604" y="-76" name="L"/>
+  <anchor x="604" y="1145" name="U"/>
   <outline>
-    <component base="CyCapEf"/>
+    <component base="CySmEf.sc"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>CySmEf.sc</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
 </glyph>
